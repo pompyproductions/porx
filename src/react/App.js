@@ -10,12 +10,15 @@ const App = () => {
   return <>
     <React.StrictMode>
       <BrowserRouter>
-        <Header />
+        <main>
+         <h1>PORX</h1> 
+        </main>
+        {/* <Header />
         <div className="vsep"></div>
         <Routes>
           <Route path="*" element={<Home />}/>
           <Route path="/page" element={<OtherPage />}/>
-        </Routes>
+        </Routes> */}
       </BrowserRouter>
     </React.StrictMode>
   </>
